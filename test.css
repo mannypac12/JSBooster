@@ -1,0 +1,12 @@
+div {
+    color:blue;
+    animation-name: mymove;
+    animation-duration: 10s;
+    animation-iteration-count: infinite
+}
+
+@keyframes mymove {
+    from {margin-left: 0%;}
+    
+      to {margin-left: 100%;}
+}
